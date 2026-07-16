@@ -1,30 +1,53 @@
-# Proyecto: Mi Primera Página Web
+# Mi Primera Página Web 🌐
 
-Este proyecto consiste en la creación de una página web personal utilizando HTML5 y CSS3, desarrollada como parte del Módulo 1 de la unidad "Antes de React" del curso de Centro de e-Learning UTN BA.
+Este es mi primer proyecto de desarrollo web, creado como parte de mi formación en la Diplomatura de Desarrollo Full Stack. Es una página personal donde comparto información sobre mí, mis intereses y una sección de contacto.
 
-## Descripción
+## 📋 Descripción
 
-La página tiene como objetivo presentar información personal de manera semántica y estilizada, aplicando buenas prácticas de desarrollo web, uso de variables CSS y estructura semántica.
+La página presenta una introducción personal, información sobre mi familia, mis proyectos e ideas a futuro, mis intereses y un formulario de contacto. Fue desarrollada practicando conceptos fundamentales de **HTML** y **CSS**, incluyendo Flexbox, variables CSS, diseño responsivo básico y estilizado de formularios.
 
-## Tecnologías utilizadas
+## 🚀 Tecnologías utilizadas
 
-- **HTML5:** Estructura semántica (header, main, footer, article, form, etc.).
-- **CSS3:** Estilos externos, uso de variables, Flexbox y diseño responsivo.
+- **HTML5** — estructura semántica de la página
+- **CSS3** — estilos, variables (`:root`), Flexbox y transiciones
 
-## Instrucciones para clonar y ejecutar
+## 📁 Estructura del proyecto
 
-1. Clona este repositorio en tu computadora usando:
-   `git clone https://github.com/[TuUsuario]/[NombreDeTuRepositorio].git`
-2. Abre la carpeta del proyecto en tu editor de código (ej. VS Code).
-3. Abre el archivo `Tarea N1.html` directamente en tu navegador web preferido para visualizar la página.
+```
+├── Tarea_N1.html      # Página principal
+├── style.css          # Hoja de estilos
+└── README.md          # Este archivo
+```
 
-## Créditos del autor
+## ✨ Secciones de la página
 
-- **Nombre:** Diego Myma
-- **Curso:** [Inserta el nombre de tu curso, ej: Programación Web]
-- **Unidad:** Módulo 1 - Unidad 1
+- **Inicio / Bienvenida**: presentación general
+- **Información personal**: datos y fotos familiares
+- **Sobre mí**: intereses, proyectos e ideas personales
+- **Intereses**: lista de temas que me apasionan
+- **Contacto**: formulario para dejar un mensaje
 
-## Fuentes y Bibliografía
+## 💻 Cómo verlo localmente
 
-- **HTML & CSS:** Duckett, J. (2011). _Design and Build Websites_. John Wiley & Sons.
-- **Documentación:** MDN Web Docs. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) y [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
+1. Cloná este repositorio:
+   ```bash
+   git clone https://github.com/Dmyma2310/Tareas---Diplomatura-en-Professional-Full-Stack-Developer.git
+   ```
+2. Entrá a la carpeta del proyecto:
+   ```bash
+   cd Tareas---Diplomatura-en-Professional-Full-Stack-Developer
+   ```
+3. Abrí el archivo `Index.html` en tu navegador (doble clic o "Abrir con navegador").
+
+## 📌 Estado del proyecto
+
+En desarrollo — se irán agregando mejoras y nuevas funcionalidades a medida que avance en la diplomatura.
+
+## 👤 Autor
+
+**Diego Myma**
+Estudiante de Ingeniería en Sistemas de la Información
+
+---
+
+© 2026 - Proyecto realizado con fines educativos.
