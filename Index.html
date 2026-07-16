@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primera página</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Hola Mundo!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bienvenida">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="bienvenida">
+                <h2>Bienvenido a mi página web!</h2>
+                <p>Hola, soy Diego Myma, estudiante de Ingeniería en Sistemas de la Información. Esta es mi primera página web donde comparto información sobre mí y cómo contactarme, a lo largo de mi carrera como programador voy a ir mejorando esta página con las nuevas habilidades que voy adquiriendo.</p>
+            </section>
+
+            <section id="informacion-personal">
+                <h2>Información Personal</h2>
+                <p>Nací el 2 de noviembre de 2003 en la Ciudad de Buenos Aires. Vivo con mis padres y tengo dos hermanos: Candela, la menor, y Matías, el mayor. Además, tengo un hermoso perro llamado Vitto y una novia maravillosa que me acompaña en todas mis metas y problemas.</p>
+                <img src="foto-familia.jpeg" alt="Foto de familia" class="foto-familia">
+                <img src="foto-perro.jpeg" alt="Foto del perro" class="foto-perro">
+                <img src="foto-novia.jpeg" alt="Foto de mi novia" class="foto-novia">
+                
+            </section>
+
+            <article id="sobre-mi">
+                <section>
+
+                    <h2>Sobre Mi</h2>
+                        <p>Soy una persona a la que le gusta aprender nuevas cosas y enfrentar desafíos, tengo un montón de emprendimientos y proyectos pendientes que me encataría realizar. Adoro escuchar música y jugar videojuegos en mi tiempo libre. También me encanta el mundo de la tecnología y la programación, sobre todo la ingeniería orientada en este mundo, me sorprende cómo es que llegan a resolver problemas complejos y ayudan a resolver un montón de cosas tanto básicas como avanzadas.</p>
+                        
+                    <div class="bloque-lista">
+                        <img src="foto-perfil.jpeg" alt="Imagen de perfil" class="foto-perfil">  
+                        <div class="lista-ideas"> 
+                            
+                            <p><strong>Lista de Ideas/Poyectos que quiero hacer:</strong></p>
+                            <ol>
+                                <li><strong>Impresión 3D:</strong> Una guitarra eléctrica impresa enteramente en 3D, consiste en que el cuerpo quede completamente impreso en 3D y los componentes importantes sean comprados a parte.</li>
+                                <li><strong>Tecnología:</strong> Mi setup soñado, una computadora tope de gama "escondida" debajo de la mesa con refrigeración líquida totalmente personalizada y periféricos orientados a la productividad.</li>
+                                <li><strong>Programación:</strong> Crear y diseñar mis propias aplicaciones web y móviles, enfocadas en la productividad, salud y finanzas.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="intereses">
+
+                    <h3>Intereses</h3>
+                    <ul>
+                        <li>Programación y desarrollo web</li>
+                        <li>Inteligencia Artificial y Machine Learning</li>
+                        <li>Videojuegos y proyectos de impresión 3D</li>
+                        <li>Música y actividades al aire libre</li>
+                    </ul>
+
+                </section>
+
+                <section id="contacto">
+                    <h2>Contacto</h2>
+                    <form>
+                        <label for="nombre" class="escondido">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                        <label for="email" class="escondido">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+
+                        <label for="asunto" class="escondido">Asunto</label>
+                        <select id="asunto" name="asunto">
+                            <option value="">Asunto</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <label for="mensaje" class="escondido">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Dejame tu mensaje acá"></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+            </article>
+        </main>
+
+        <footer id="footer">
+            <p><small>&copy; 2026 Página de Diego Myma. Todos los derechos reservados.</small></p>
+        </footer>
+
+    </body>
+</html>    
