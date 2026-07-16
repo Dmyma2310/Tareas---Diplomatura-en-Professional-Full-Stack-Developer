@@ -14,7 +14,7 @@ La página presenta una introducción personal, información sobre mi familia, m
 ## 📁 Estructura del proyecto
 
 ```
-├── Tarea_N1.html      # Página principal
+├── Index.html      # Página principal
 ├── style.css          # Hoja de estilos
 └── README.md          # Este archivo
 ```
